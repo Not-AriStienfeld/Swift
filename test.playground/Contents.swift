@@ -36,3 +36,4 @@ func getBool(value:Bool) -> Bool{
         return false
     }
 }
+
