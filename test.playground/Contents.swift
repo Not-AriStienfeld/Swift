@@ -34,7 +34,7 @@ print(String(getBool(true)))
 func getBool(_ value:Bool) -> Bool{
     print("getting boolean value")
     for i in 1...100{
-        usleep(1000000/10)
+        usleep(1000000/20)
         print(String(i) + " percent")
         
     }
