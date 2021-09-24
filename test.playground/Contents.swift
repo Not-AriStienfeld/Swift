@@ -29,11 +29,20 @@ func test(a: Int) -> Bool{
 }
  */
 
-func getBool(value:Bool) -> Bool{
+print(String(getBool(true)))
+
+func getBool(_ value:Bool) -> Bool{
+    print("getting boolean value")
+    for i in 1...100{
+        usleep(1000000/10)
+        print(String(i) + " percent")
+        
+    }
+    print("Done!")
     if value == true{
         return true
     }else{
         return false
     }
 }
-
+//pain
