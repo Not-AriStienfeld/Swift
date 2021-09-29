@@ -46,3 +46,4 @@ func getBool(_ value:Bool) -> Bool{
     }
 }
 //pain
+
