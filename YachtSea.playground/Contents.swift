@@ -1,6 +1,10 @@
 import UIKit
 
-
+//simulates 20 dice rolls
+for _ in 1...20{
+    let diceRoll = dRx5()
+    print(": \(getPnts(roll:diceRoll)) points in the sequnce \(diceRoll[0]), \(diceRoll[1]), \(diceRoll[2]), \(diceRoll[3]), \(diceRoll[4]). \n")
+}
 
 //dR is for diceRoll. I made the name small so that way I don't have to wory about typing it up every time I use it.
 func dR() -> Int{
@@ -12,18 +16,12 @@ func dRx5() -> [Int]{
     //rS short for returnStatement
     var rS = [Int]()
    
+    //adds dice rolls to the list
     for _ in 1...5{
         rS.append(dR())
     }
     return rS
 }
-
-for _ in 1...20{
-    let diceRoll = dRx5()
-    print(": \(getPnts(roll:diceRoll)) points in the sequnce \(diceRoll[0]), \(diceRoll[1]), \(diceRoll[2]), \(diceRoll[3]), \(diceRoll[4]). \n")
-}
-
-
 
 func getPnts(roll:[Int]) -> Int{
     
@@ -64,9 +62,6 @@ func getPnts(roll:[Int]) -> Int{
         return 25
     }
     
-    
-    
-    
     //I couldn't get that other guy's code to work so I made my own
     for r in 0...sortedRoll.count-2{
         if sortedRoll[r] == sortedRoll[r+1]{
@@ -105,17 +100,6 @@ func getPnts(roll:[Int]) -> Int{
     possibleRoll.sort()
     return possibleRoll[6]
     
-    //remenants of what once was debugging
-   // print("mode \(mode), modeReps\(modereps) + altmode \(altMode), altmodeReps\(altModeReps)")
-    
-    
-    
-    
-    
-    
-    
-    
-   
 }
 
 
