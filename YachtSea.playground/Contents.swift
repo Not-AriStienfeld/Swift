@@ -19,8 +19,11 @@ func dRx5() -> [Int]{
 }
 
 for _ in 1...20{
-    print(getPnts(roll:dRx5()))
+    let diceRoll = dRx5()
+    print(": \(getPnts(roll:diceRoll)) points in the sequnce \(diceRoll[0]), \(diceRoll[1]), \(diceRoll[2]), \(diceRoll[3]), \(diceRoll[4]). \n")
 }
+
+
 
 func getPnts(roll:[Int]) -> Int{
     
@@ -32,7 +35,7 @@ func getPnts(roll:[Int]) -> Int{
     let setRolls = Set(roll)
     
     //list of possible values
-    var possibleRoll = [Int]()
+    var possibleRoll = roll
    
     //parameters are immutable so I had to make a new sorted array
     var sortedRoll = roll
@@ -46,15 +49,18 @@ func getPnts(roll:[Int]) -> Int{
     
     //yacht Sea option
     if setRolls.count == 1{
+        print("yacht sea", terminator:"")
         return 50
     }
     //Small Straight
     else if setRolls.count == 4{
+        print("small straight", terminator:"")
         return 30
     }
     
     //Full house
     else if setRolls.count == 2{
+       print("full house", terminator:"")
         return 25
     }
     
@@ -68,24 +74,36 @@ func getPnts(roll:[Int]) -> Int{
                 mode = sortedRoll[r]
                 modereps += 1
             }
-            if modereps != 0 && sortedRoll[r] == mode{
+             if modereps != 0 && sortedRoll[r] == mode{
                 modereps += 1
             }
-            if sortedRoll[r] != mode{
+             if sortedRoll[r] != mode{
                 altMode = sortedRoll[r]
                 altModeReps+=1
             }
-            if (sortedRoll[r] == altMode){
+             if (sortedRoll[r] == altMode){
                 altModeReps += 1
             }
         }
+    }
+    
+    //printing out what caused the highest number to be a thing
+    possibleRoll.sort()
+    if modereps * mode > possibleRoll[4] || altMode*altModeReps > possibleRoll[4]{
+        if modereps * mode > altMode*altModeReps{
+            print("\(mode) occured \(modereps) times", terminator:"")
+        }else{
+            print("\(altMode) occured \(altModeReps) times", terminator:"")
+        }
+    }else{
+        print("\(possibleRoll[4]) was the highest number", terminator:"")
     }
     
     //finding what gets the most points
     possibleRoll.append(mode*modereps)
     possibleRoll.append(altMode*altModeReps)
     possibleRoll.sort()
-    return possibleRoll[1]
+    return possibleRoll[6]
     
     //remenants of what once was debugging
    // print("mode \(mode), modeReps\(modereps) + altmode \(altMode), altmodeReps\(altModeReps)")
