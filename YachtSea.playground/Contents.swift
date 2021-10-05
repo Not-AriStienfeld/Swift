@@ -57,7 +57,7 @@ func getPnts(roll:[Int]) -> Int{
     }
     
     //Full house
-    else if setRolls.count == 2{
+    else if setRolls.count == 2 && (sortedRoll[0] == sortedRoll[1] && sortedRoll[3] == sortedRoll[4]){
        print("full house", terminator:"")
         return 25
     }
