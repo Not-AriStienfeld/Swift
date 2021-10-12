@@ -1,5 +1,9 @@
 import UIKit
+
+//I named it prodQuant because its PRODucts and QUANTity
 var prodQuant: [String:Int] = ["hard drives":502, "software":7, "wPhones":24, "wPens":700532]
+
+//since user input is close to nonexistant, any time you see fakeInout, that is representing someone entering in the input
 
 //adding a product
 
