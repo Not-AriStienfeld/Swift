@@ -65,9 +65,20 @@ print("\n\n")
 
 
 //itterate throught the dictionary and print out a nice list
-
-for (product, quantity) in prodQuant{
-    print("\nthere is \(quantity) ammount of \(product) in stock")
+var quantListed: [Int] = []
+for (_, quantity) in prodQuant{
+    quantListed.append(quantity)
+}
+quantListed.sort()
+var prodRemoveQuant = prodQuant
+for i in 0...quantListed.count-1{
+    for (prod, _) in prodRemoveQuant {
+        if quantListed[i] == prodRemoveQuant[prod]{
+            print("we have \(quantListed[i]) of \(prod) in stock")
+            prodRemoveQuant[prod] = nil
+            
+        }
+    }
 }
 print("\n\n")
 
@@ -77,7 +88,7 @@ print("\n\n")
 //removing a product
 
 let fakeInputRemove = "software"
-if prodQuant[fakeInputRemove] != nil{
+if let _ = prodQuant[fakeInputRemove]{
     prodQuant[fakeInputRemove] = nil
     print("\(fakeInputRemove) is now gone")
 }else{
