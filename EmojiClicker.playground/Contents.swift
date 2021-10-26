@@ -68,8 +68,8 @@ let goodCase = EmojiChooser(["😀", "📷", "💽", "🎛", "⛓", "⚽️", "�
 let badCase = EmojiChooser(["😀"])
 
 //time to see the fruits of my labor
-print("Proper input:   \(goodCase.getRandomEmojis())")
-print("Improper input: \(badCase.getRandomEmojis())")
+print("Proper input   : \(goodCase.getRandomEmojis())")
+print("Improper input : \(badCase.getRandomEmojis())")
 
 
 
