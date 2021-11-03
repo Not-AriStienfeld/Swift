@@ -69,7 +69,11 @@ let badCase = EmojiChooser(["😀"])
 
 //time to see the fruits of my labor
 print("Proper input   : \(goodCase.getRandomEmojis())")
+
+//showing that I idiot proofed it and that you could enter in an array thats too small and it still wouldn't give an error
 print("Improper input : \(badCase.getRandomEmojis())")
+
+
 
 
 
