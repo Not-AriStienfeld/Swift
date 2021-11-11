@@ -6,9 +6,10 @@
 //
 
 import SwiftUI
-var me = Contact(name: "Ari", phoneNumber: "610-517-9060", emailAddress: "s016893@students.lmsd.org")
+
 
 struct ContactView: View {
+    var me : Contact
     var body: some View {
         VStack{
             Text(me.name)
@@ -27,6 +28,6 @@ struct ContactView: View {
 
 struct ContactView_Previews: PreviewProvider {
     static var previews: some View {
-        ContactView()
+        ContactView(me: Contact())
     }
 }
