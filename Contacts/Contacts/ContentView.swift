@@ -11,8 +11,12 @@ struct ContentView: View {
     var contacts = [Contact(name: "Ari", phoneNumber: "610-517-9060", emailAddress: "s016893@students.lmsd.org"),  Contact(name: "John Doe", phoneNumber: "111-111-1111", emailAddress: "address@domain.webending"), Contact()]
     
     var body: some View {
-        List(contacts){ contact in
-            ContactView(me: contact)
+        NavigationView{
+            List(contacts){ contact in
+                NavigationLink(
+                    destination: ContactDetail(contact: contact),
+                    label: {ContactView(me: contact)})
+            }
         }
     }
 }

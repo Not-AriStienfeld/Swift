@@ -7,68 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A6EC0FC274D3A5F00E9B060 /* ContactDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6EC0FB274D3A5F00E9B060 /* ContactDetail.swift */; };
-		1ADC18C7273C03050078C550 /* ContactsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADC18C6273C03050078C550 /* ContactsApp.swift */; };
-		1ADC18C9273C03050078C550 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADC18C8273C03050078C550 /* ContentView.swift */; };
-		1ADC18CB273C03070078C550 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ADC18CA273C03070078C550 /* Assets.xcassets */; };
-		1ADC18CE273C03070078C550 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ADC18CD273C03070078C550 /* Preview Assets.xcassets */; };
-		1ADC18D9273C03070078C550 /* ContactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADC18D8273C03070078C550 /* ContactsTests.swift */; };
-		1ADC18E4273C03070078C550 /* ContactsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADC18E3273C03070078C550 /* ContactsUITests.swift */; };
-		1ADC18F2273C03320078C550 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADC18F1273C03320078C550 /* Contact.swift */; };
-		1ADC18F4273C03F60078C550 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADC18F3273C03F60078C550 /* ContactView.swift */; };
+		1A21A50D273D6BC400ACCCC7 /* AlarmingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A21A50C273D6BC400ACCCC7 /* AlarmingApp.swift */; };
+		1A21A50F273D6BC400ACCCC7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A21A50E273D6BC400ACCCC7 /* ContentView.swift */; };
+		1A21A511273D6BC600ACCCC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A21A510273D6BC600ACCCC7 /* Assets.xcassets */; };
+		1A21A514273D6BC600ACCCC7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A21A513273D6BC600ACCCC7 /* Preview Assets.xcassets */; };
+		1A21A51F273D6BC600ACCCC7 /* AlarmingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A21A51E273D6BC600ACCCC7 /* AlarmingTests.swift */; };
+		1A21A52A273D6BC700ACCCC7 /* AlarmingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A21A529273D6BC700ACCCC7 /* AlarmingUITests.swift */; };
+		1A21A538273D6C1E00ACCCC7 /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A21A537273D6C1E00ACCCC7 /* Alarm.swift */; };
+		1A21A53A273D6CEE00ACCCC7 /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A21A539273D6CEE00ACCCC7 /* AlarmView.swift */; };
+		1A6EC0FE274D3C7000E9B060 /* AlarmDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6EC0FD274D3C7000E9B060 /* AlarmDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1ADC18D5273C03070078C550 /* PBXContainerItemProxy */ = {
+		1A21A51B273D6BC600ACCCC7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1ADC18BB273C03050078C550 /* Project object */;
+			containerPortal = 1A21A501273D6BC400ACCCC7 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1ADC18C2273C03050078C550;
-			remoteInfo = Contacts;
+			remoteGlobalIDString = 1A21A508273D6BC400ACCCC7;
+			remoteInfo = Alarming;
 		};
-		1ADC18E0273C03070078C550 /* PBXContainerItemProxy */ = {
+		1A21A526273D6BC700ACCCC7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1ADC18BB273C03050078C550 /* Project object */;
+			containerPortal = 1A21A501273D6BC400ACCCC7 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1ADC18C2273C03050078C550;
-			remoteInfo = Contacts;
+			remoteGlobalIDString = 1A21A508273D6BC400ACCCC7;
+			remoteInfo = Alarming;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1A6EC0FB274D3A5F00E9B060 /* ContactDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetail.swift; sourceTree = "<group>"; };
-		1ADC18C3273C03050078C550 /* Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1ADC18C6273C03050078C550 /* ContactsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsApp.swift; sourceTree = "<group>"; };
-		1ADC18C8273C03050078C550 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		1ADC18CA273C03070078C550 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1ADC18CD273C03070078C550 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		1ADC18CF273C03070078C550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1ADC18D4273C03070078C550 /* ContactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1ADC18D8273C03070078C550 /* ContactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTests.swift; sourceTree = "<group>"; };
-		1ADC18DA273C03070078C550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1ADC18DF273C03070078C550 /* ContactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1ADC18E3273C03070078C550 /* ContactsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsUITests.swift; sourceTree = "<group>"; };
-		1ADC18E5273C03070078C550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1ADC18F1273C03320078C550 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
-		1ADC18F3273C03F60078C550 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		1A21A509273D6BC400ACCCC7 /* Alarming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alarming.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A21A50C273D6BC400ACCCC7 /* AlarmingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmingApp.swift; sourceTree = "<group>"; };
+		1A21A50E273D6BC400ACCCC7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1A21A510273D6BC600ACCCC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A21A513273D6BC600ACCCC7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1A21A515273D6BC600ACCCC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A21A51A273D6BC600ACCCC7 /* AlarmingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlarmingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A21A51E273D6BC600ACCCC7 /* AlarmingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmingTests.swift; sourceTree = "<group>"; };
+		1A21A520273D6BC600ACCCC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A21A525273D6BC700ACCCC7 /* AlarmingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlarmingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A21A529273D6BC700ACCCC7 /* AlarmingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmingUITests.swift; sourceTree = "<group>"; };
+		1A21A52B273D6BC700ACCCC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A21A537273D6C1E00ACCCC7 /* Alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+		1A21A539273D6CEE00ACCCC7 /* AlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmView.swift; sourceTree = "<group>"; };
+		1A6EC0FD274D3C7000E9B060 /* AlarmDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1ADC18C0273C03050078C550 /* Frameworks */ = {
+		1A21A506273D6BC400ACCCC7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1ADC18D1273C03070078C550 /* Frameworks */ = {
+		1A21A517273D6BC600ACCCC7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1ADC18DC273C03070078C550 /* Frameworks */ = {
+		1A21A522273D6BC700ACCCC7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,146 +78,146 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1ADC18BA273C03050078C550 = {
+		1A21A500273D6BC400ACCCC7 = {
 			isa = PBXGroup;
 			children = (
-				1ADC18C5273C03050078C550 /* Contacts */,
-				1ADC18D7273C03070078C550 /* ContactsTests */,
-				1ADC18E2273C03070078C550 /* ContactsUITests */,
-				1ADC18C4273C03050078C550 /* Products */,
+				1A21A50B273D6BC400ACCCC7 /* Alarming */,
+				1A21A51D273D6BC600ACCCC7 /* AlarmingTests */,
+				1A21A528273D6BC700ACCCC7 /* AlarmingUITests */,
+				1A21A50A273D6BC400ACCCC7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1ADC18C4273C03050078C550 /* Products */ = {
+		1A21A50A273D6BC400ACCCC7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1ADC18C3273C03050078C550 /* Contacts.app */,
-				1ADC18D4273C03070078C550 /* ContactsTests.xctest */,
-				1ADC18DF273C03070078C550 /* ContactsUITests.xctest */,
+				1A21A509273D6BC400ACCCC7 /* Alarming.app */,
+				1A21A51A273D6BC600ACCCC7 /* AlarmingTests.xctest */,
+				1A21A525273D6BC700ACCCC7 /* AlarmingUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1ADC18C5273C03050078C550 /* Contacts */ = {
+		1A21A50B273D6BC400ACCCC7 /* Alarming */ = {
 			isa = PBXGroup;
 			children = (
-				1ADC18C6273C03050078C550 /* ContactsApp.swift */,
-				1ADC18C8273C03050078C550 /* ContentView.swift */,
-				1ADC18CA273C03070078C550 /* Assets.xcassets */,
-				1ADC18CF273C03070078C550 /* Info.plist */,
-				1ADC18CC273C03070078C550 /* Preview Content */,
-				1ADC18F1273C03320078C550 /* Contact.swift */,
-				1ADC18F3273C03F60078C550 /* ContactView.swift */,
-				1A6EC0FB274D3A5F00E9B060 /* ContactDetail.swift */,
+				1A21A50C273D6BC400ACCCC7 /* AlarmingApp.swift */,
+				1A21A50E273D6BC400ACCCC7 /* ContentView.swift */,
+				1A21A510273D6BC600ACCCC7 /* Assets.xcassets */,
+				1A21A515273D6BC600ACCCC7 /* Info.plist */,
+				1A21A512273D6BC600ACCCC7 /* Preview Content */,
+				1A21A537273D6C1E00ACCCC7 /* Alarm.swift */,
+				1A21A539273D6CEE00ACCCC7 /* AlarmView.swift */,
+				1A6EC0FD274D3C7000E9B060 /* AlarmDetail.swift */,
 			);
-			path = Contacts;
+			path = Alarming;
 			sourceTree = "<group>";
 		};
-		1ADC18CC273C03070078C550 /* Preview Content */ = {
+		1A21A512273D6BC600ACCCC7 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				1ADC18CD273C03070078C550 /* Preview Assets.xcassets */,
+				1A21A513273D6BC600ACCCC7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		1ADC18D7273C03070078C550 /* ContactsTests */ = {
+		1A21A51D273D6BC600ACCCC7 /* AlarmingTests */ = {
 			isa = PBXGroup;
 			children = (
-				1ADC18D8273C03070078C550 /* ContactsTests.swift */,
-				1ADC18DA273C03070078C550 /* Info.plist */,
+				1A21A51E273D6BC600ACCCC7 /* AlarmingTests.swift */,
+				1A21A520273D6BC600ACCCC7 /* Info.plist */,
 			);
-			path = ContactsTests;
+			path = AlarmingTests;
 			sourceTree = "<group>";
 		};
-		1ADC18E2273C03070078C550 /* ContactsUITests */ = {
+		1A21A528273D6BC700ACCCC7 /* AlarmingUITests */ = {
 			isa = PBXGroup;
 			children = (
-				1ADC18E3273C03070078C550 /* ContactsUITests.swift */,
-				1ADC18E5273C03070078C550 /* Info.plist */,
+				1A21A529273D6BC700ACCCC7 /* AlarmingUITests.swift */,
+				1A21A52B273D6BC700ACCCC7 /* Info.plist */,
 			);
-			path = ContactsUITests;
+			path = AlarmingUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1ADC18C2273C03050078C550 /* Contacts */ = {
+		1A21A508273D6BC400ACCCC7 /* Alarming */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1ADC18E8273C03070078C550 /* Build configuration list for PBXNativeTarget "Contacts" */;
+			buildConfigurationList = 1A21A52E273D6BC700ACCCC7 /* Build configuration list for PBXNativeTarget "Alarming" */;
 			buildPhases = (
-				1ADC18BF273C03050078C550 /* Sources */,
-				1ADC18C0273C03050078C550 /* Frameworks */,
-				1ADC18C1273C03050078C550 /* Resources */,
+				1A21A505273D6BC400ACCCC7 /* Sources */,
+				1A21A506273D6BC400ACCCC7 /* Frameworks */,
+				1A21A507273D6BC400ACCCC7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Contacts;
-			productName = Contacts;
-			productReference = 1ADC18C3273C03050078C550 /* Contacts.app */;
+			name = Alarming;
+			productName = Alarming;
+			productReference = 1A21A509273D6BC400ACCCC7 /* Alarming.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1ADC18D3273C03070078C550 /* ContactsTests */ = {
+		1A21A519273D6BC600ACCCC7 /* AlarmingTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1ADC18EB273C03070078C550 /* Build configuration list for PBXNativeTarget "ContactsTests" */;
+			buildConfigurationList = 1A21A531273D6BC700ACCCC7 /* Build configuration list for PBXNativeTarget "AlarmingTests" */;
 			buildPhases = (
-				1ADC18D0273C03070078C550 /* Sources */,
-				1ADC18D1273C03070078C550 /* Frameworks */,
-				1ADC18D2273C03070078C550 /* Resources */,
+				1A21A516273D6BC600ACCCC7 /* Sources */,
+				1A21A517273D6BC600ACCCC7 /* Frameworks */,
+				1A21A518273D6BC600ACCCC7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1ADC18D6273C03070078C550 /* PBXTargetDependency */,
+				1A21A51C273D6BC600ACCCC7 /* PBXTargetDependency */,
 			);
-			name = ContactsTests;
-			productName = ContactsTests;
-			productReference = 1ADC18D4273C03070078C550 /* ContactsTests.xctest */;
+			name = AlarmingTests;
+			productName = AlarmingTests;
+			productReference = 1A21A51A273D6BC600ACCCC7 /* AlarmingTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1ADC18DE273C03070078C550 /* ContactsUITests */ = {
+		1A21A524273D6BC700ACCCC7 /* AlarmingUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1ADC18EE273C03070078C550 /* Build configuration list for PBXNativeTarget "ContactsUITests" */;
+			buildConfigurationList = 1A21A534273D6BC700ACCCC7 /* Build configuration list for PBXNativeTarget "AlarmingUITests" */;
 			buildPhases = (
-				1ADC18DB273C03070078C550 /* Sources */,
-				1ADC18DC273C03070078C550 /* Frameworks */,
-				1ADC18DD273C03070078C550 /* Resources */,
+				1A21A521273D6BC700ACCCC7 /* Sources */,
+				1A21A522273D6BC700ACCCC7 /* Frameworks */,
+				1A21A523273D6BC700ACCCC7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1ADC18E1273C03070078C550 /* PBXTargetDependency */,
+				1A21A527273D6BC700ACCCC7 /* PBXTargetDependency */,
 			);
-			name = ContactsUITests;
-			productName = ContactsUITests;
-			productReference = 1ADC18DF273C03070078C550 /* ContactsUITests.xctest */;
+			name = AlarmingUITests;
+			productName = AlarmingUITests;
+			productReference = 1A21A525273D6BC700ACCCC7 /* AlarmingUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1ADC18BB273C03050078C550 /* Project object */ = {
+		1A21A501273D6BC400ACCCC7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					1ADC18C2273C03050078C550 = {
+					1A21A508273D6BC400ACCCC7 = {
 						CreatedOnToolsVersion = 12.5;
 					};
-					1ADC18D3273C03070078C550 = {
+					1A21A519273D6BC600ACCCC7 = {
 						CreatedOnToolsVersion = 12.5;
-						TestTargetID = 1ADC18C2273C03050078C550;
+						TestTargetID = 1A21A508273D6BC400ACCCC7;
 					};
-					1ADC18DE273C03070078C550 = {
+					1A21A524273D6BC700ACCCC7 = {
 						CreatedOnToolsVersion = 12.5;
-						TestTargetID = 1ADC18C2273C03050078C550;
+						TestTargetID = 1A21A508273D6BC400ACCCC7;
 					};
 				};
 			};
-			buildConfigurationList = 1ADC18BE273C03050078C550 /* Build configuration list for PBXProject "Contacts" */;
+			buildConfigurationList = 1A21A504273D6BC400ACCCC7 /* Build configuration list for PBXProject "Alarming" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -225,36 +225,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 1ADC18BA273C03050078C550;
-			productRefGroup = 1ADC18C4273C03050078C550 /* Products */;
+			mainGroup = 1A21A500273D6BC400ACCCC7;
+			productRefGroup = 1A21A50A273D6BC400ACCCC7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1ADC18C2273C03050078C550 /* Contacts */,
-				1ADC18D3273C03070078C550 /* ContactsTests */,
-				1ADC18DE273C03070078C550 /* ContactsUITests */,
+				1A21A508273D6BC400ACCCC7 /* Alarming */,
+				1A21A519273D6BC600ACCCC7 /* AlarmingTests */,
+				1A21A524273D6BC700ACCCC7 /* AlarmingUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1ADC18C1273C03050078C550 /* Resources */ = {
+		1A21A507273D6BC400ACCCC7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1ADC18CE273C03070078C550 /* Preview Assets.xcassets in Resources */,
-				1ADC18CB273C03070078C550 /* Assets.xcassets in Resources */,
+				1A21A514273D6BC600ACCCC7 /* Preview Assets.xcassets in Resources */,
+				1A21A511273D6BC600ACCCC7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1ADC18D2273C03070078C550 /* Resources */ = {
+		1A21A518273D6BC600ACCCC7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1ADC18DD273C03070078C550 /* Resources */ = {
+		1A21A523273D6BC700ACCCC7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -264,51 +264,51 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1ADC18BF273C03050078C550 /* Sources */ = {
+		1A21A505273D6BC400ACCCC7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1ADC18F2273C03320078C550 /* Contact.swift in Sources */,
-				1ADC18C9273C03050078C550 /* ContentView.swift in Sources */,
-				1ADC18C7273C03050078C550 /* ContactsApp.swift in Sources */,
-				1ADC18F4273C03F60078C550 /* ContactView.swift in Sources */,
-				1A6EC0FC274D3A5F00E9B060 /* ContactDetail.swift in Sources */,
+				1A21A50F273D6BC400ACCCC7 /* ContentView.swift in Sources */,
+				1A21A50D273D6BC400ACCCC7 /* AlarmingApp.swift in Sources */,
+				1A21A53A273D6CEE00ACCCC7 /* AlarmView.swift in Sources */,
+				1A6EC0FE274D3C7000E9B060 /* AlarmDetail.swift in Sources */,
+				1A21A538273D6C1E00ACCCC7 /* Alarm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1ADC18D0273C03070078C550 /* Sources */ = {
+		1A21A516273D6BC600ACCCC7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1ADC18D9273C03070078C550 /* ContactsTests.swift in Sources */,
+				1A21A51F273D6BC600ACCCC7 /* AlarmingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1ADC18DB273C03070078C550 /* Sources */ = {
+		1A21A521273D6BC700ACCCC7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1ADC18E4273C03070078C550 /* ContactsUITests.swift in Sources */,
+				1A21A52A273D6BC700ACCCC7 /* AlarmingUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1ADC18D6273C03070078C550 /* PBXTargetDependency */ = {
+		1A21A51C273D6BC600ACCCC7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1ADC18C2273C03050078C550 /* Contacts */;
-			targetProxy = 1ADC18D5273C03070078C550 /* PBXContainerItemProxy */;
+			target = 1A21A508273D6BC400ACCCC7 /* Alarming */;
+			targetProxy = 1A21A51B273D6BC600ACCCC7 /* PBXContainerItemProxy */;
 		};
-		1ADC18E1273C03070078C550 /* PBXTargetDependency */ = {
+		1A21A527273D6BC700ACCCC7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1ADC18C2273C03050078C550 /* Contacts */;
-			targetProxy = 1ADC18E0273C03070078C550 /* PBXContainerItemProxy */;
+			target = 1A21A508273D6BC400ACCCC7 /* Alarming */;
+			targetProxy = 1A21A526273D6BC700ACCCC7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1ADC18E6273C03070078C550 /* Debug */ = {
+		1A21A52C273D6BC700ACCCC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -369,7 +369,7 @@
 			};
 			name = Debug;
 		};
-		1ADC18E7273C03070078C550 /* Release */ = {
+		1A21A52D273D6BC700ACCCC7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -424,174 +424,174 @@
 			};
 			name = Release;
 		};
-		1ADC18E9273C03070078C550 /* Debug */ = {
+		1A21A52F273D6BC700ACCCC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Contacts/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Alarming/Preview Content\"";
 				DEVELOPMENT_TEAM = 4QTYLSM938;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Contacts/Info.plist;
+				INFOPLIST_FILE = Alarming/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Smartester-People-CO.Contacts";
+				PRODUCT_BUNDLE_IDENTIFIER = "Smartester-People-CO.Alarming";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		1ADC18EA273C03070078C550 /* Release */ = {
+		1A21A530273D6BC700ACCCC7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Contacts/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Alarming/Preview Content\"";
 				DEVELOPMENT_TEAM = 4QTYLSM938;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Contacts/Info.plist;
+				INFOPLIST_FILE = Alarming/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Smartester-People-CO.Contacts";
+				PRODUCT_BUNDLE_IDENTIFIER = "Smartester-People-CO.Alarming";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		1ADC18EC273C03070078C550 /* Debug */ = {
+		1A21A532273D6BC700ACCCC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4QTYLSM938;
-				INFOPLIST_FILE = ContactsTests/Info.plist;
+				INFOPLIST_FILE = AlarmingTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Smartester-People-CO.ContactsTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Smartester-People-CO.AlarmingTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Contacts.app/Contacts";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alarming.app/Alarming";
 			};
 			name = Debug;
 		};
-		1ADC18ED273C03070078C550 /* Release */ = {
+		1A21A533273D6BC700ACCCC7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4QTYLSM938;
-				INFOPLIST_FILE = ContactsTests/Info.plist;
+				INFOPLIST_FILE = AlarmingTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Smartester-People-CO.ContactsTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Smartester-People-CO.AlarmingTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Contacts.app/Contacts";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alarming.app/Alarming";
 			};
 			name = Release;
 		};
-		1ADC18EF273C03070078C550 /* Debug */ = {
+		1A21A535273D6BC700ACCCC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4QTYLSM938;
-				INFOPLIST_FILE = ContactsUITests/Info.plist;
+				INFOPLIST_FILE = AlarmingUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Smartester-People-CO.ContactsUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Smartester-People-CO.AlarmingUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Contacts;
+				TEST_TARGET_NAME = Alarming;
 			};
 			name = Debug;
 		};
-		1ADC18F0273C03070078C550 /* Release */ = {
+		1A21A536273D6BC700ACCCC7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4QTYLSM938;
-				INFOPLIST_FILE = ContactsUITests/Info.plist;
+				INFOPLIST_FILE = AlarmingUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Smartester-People-CO.ContactsUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Smartester-People-CO.AlarmingUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Contacts;
+				TEST_TARGET_NAME = Alarming;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1ADC18BE273C03050078C550 /* Build configuration list for PBXProject "Contacts" */ = {
+		1A21A504273D6BC400ACCCC7 /* Build configuration list for PBXProject "Alarming" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1ADC18E6273C03070078C550 /* Debug */,
-				1ADC18E7273C03070078C550 /* Release */,
+				1A21A52C273D6BC700ACCCC7 /* Debug */,
+				1A21A52D273D6BC700ACCCC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1ADC18E8273C03070078C550 /* Build configuration list for PBXNativeTarget "Contacts" */ = {
+		1A21A52E273D6BC700ACCCC7 /* Build configuration list for PBXNativeTarget "Alarming" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1ADC18E9273C03070078C550 /* Debug */,
-				1ADC18EA273C03070078C550 /* Release */,
+				1A21A52F273D6BC700ACCCC7 /* Debug */,
+				1A21A530273D6BC700ACCCC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1ADC18EB273C03070078C550 /* Build configuration list for PBXNativeTarget "ContactsTests" */ = {
+		1A21A531273D6BC700ACCCC7 /* Build configuration list for PBXNativeTarget "AlarmingTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1ADC18EC273C03070078C550 /* Debug */,
-				1ADC18ED273C03070078C550 /* Release */,
+				1A21A532273D6BC700ACCCC7 /* Debug */,
+				1A21A533273D6BC700ACCCC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1ADC18EE273C03070078C550 /* Build configuration list for PBXNativeTarget "ContactsUITests" */ = {
+		1A21A534273D6BC700ACCCC7 /* Build configuration list for PBXNativeTarget "AlarmingUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1ADC18EF273C03070078C550 /* Debug */,
-				1ADC18F0273C03070078C550 /* Release */,
+				1A21A535273D6BC700ACCCC7 /* Debug */,
+				1A21A536273D6BC700ACCCC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1ADC18BB273C03050078C550 /* Project object */;
+	rootObject = 1A21A501273D6BC400ACCCC7 /* Project object */;
 }

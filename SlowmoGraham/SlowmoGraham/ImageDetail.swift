@@ -18,6 +18,8 @@ struct ImageDetail: View {
                     .resizable()
                     .aspectRatio(contentMode: .fill)
                     .frame(width: geo.size.width, height: 240, alignment: .top)
+                    .blur(radius: CGFloat(picture.blur))
+                    .contrast(Double(picture.contrast))
                 
             }
             VStack{

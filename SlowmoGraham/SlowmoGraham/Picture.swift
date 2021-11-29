@@ -7,11 +7,14 @@
 
 import Foundation
 
-class Picture: Identifiable{
+struct Picture: Identifiable{
     
     var image : String
+    var visible : Bool = true
     var likes : Int = 0
     var id = UUID()
+    var blur : Float = 0.0
+    var contrast : Float = 1.0
     
     init(_ image: String = "img1"){
         self.image = image

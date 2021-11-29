@@ -13,6 +13,9 @@ class Contact : Identifiable{
     var name : String
     var phoneNumber : String
     var emailAddress : String
+    var id = UUID()
+    var picture : String = "bob"
+
     
     init(name : String = "Tim Appleseed", phoneNumber : String  = "8675309", emailAddress : String = "apple@icloud.com"){
         self.name = name
