@@ -33,7 +33,7 @@ enum Catagory: String, CaseIterable, Identifiable{
     case outdoors
     case misc
     
-    
+    //test
     
     var id: String {self.rawValue}
 }
