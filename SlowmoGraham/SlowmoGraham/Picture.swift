@@ -15,6 +15,10 @@ struct Picture: Identifiable{
     var id = UUID()
     var blur : Float = 0.0
     var contrast : Float = 1.0
+    var saturation : Float = 1.0
+    var catagory : Catagory = .misc
+    var modifier : Modifier = .one
+    var brightness : Double =  0.0
     
     init(_ image: String = "img1"){
         self.image = image
@@ -22,4 +26,25 @@ struct Picture: Identifiable{
     
     
     
+}
+
+enum Catagory: String, CaseIterable, Identifiable{
+    case olympic
+    case outdoors
+    case misc
+    
+    
+    
+    var id: String {self.rawValue}
+}
+
+
+enum Modifier: String, CaseIterable, Identifiable{
+    case one
+    case two
+    case three
+    case four
+    case five
+    
+    var id: String {self.rawValue}
 }

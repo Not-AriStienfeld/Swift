@@ -21,7 +21,9 @@ struct ImageEditView: View {
                         .frame(width: geo.size.width, height: 400, alignment: .top)
                         .blur(radius: CGFloat(picture.blur))
                         .contrast(Double(picture.contrast))
-                    
+                        .saturation(Double(picture.saturation))
+                        .brightness(picture.brightness)
+                                            
                 }
                 VStack{
                     Spacer()
@@ -38,21 +40,56 @@ struct ImageEditView: View {
                         
                     }
                 }
+                .opacity( picture.visible ? 1.0 : 0.0)
             }
             .cornerRadius(20.0)
             .padding(.horizontal, 10)
             .frame(minWidth: 0, idealWidth: 300, maxWidth: .infinity, minHeight: 0, idealHeight: 400, maxHeight: 400, alignment: .center)
+            
+
         }
-        Toggle(isOn: $picture.visible, label: {
-            Text("Visibile")
-        })
-        HStack{
-            Text("Blur")
-            Slider(value: $picture.blur, in: 0...100)
+        
+        Group{
+            if (picture.modifier.rawValue == "one"){
+                HStack{
+                    Text("Blur")
+                    Slider(value: $picture.blur, in: 0...100)
+                }
+            }
+            else if (picture.modifier.rawValue == "two"){
+                HStack{
+                    Text("Contrast")
+                    Slider(value: $picture.contrast, in: 0...10)
+                }
+            }
+            else if (picture.modifier.rawValue == "three"){
+                HStack{
+                    Text("Saturation")
+                    Slider(value: $picture.saturation, in: 0...100)
+                }
+            }
+            else if (picture.modifier.rawValue == "four"){
+                HStack{
+                    Text("Brightness")
+                    Slider(value: $picture.brightness, in: 0...1)
+                }
+            }
+            else if (picture.modifier.rawValue == "five"){
+                Toggle(isOn: $picture.visible, label: {
+                    Text("Likes Visible")
+                })
+            }
         }
+        
+        
         HStack{
-            Text("Contrast")
-            Slider(value: $picture.contrast, in: 0...10)
+            Picker("Moedifier", selection: $picture.modifier){
+                Text("Blur").tag(Modifier.one)
+                Text("Contrast").tag(Modifier.two)
+                Text("Saturation").tag(Modifier.three)
+                Text("Brightness").tag(Modifier.four)
+                Text("Likes").tag(Modifier.five)
+            }
         }
     }
 }

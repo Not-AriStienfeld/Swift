@@ -25,6 +25,14 @@ struct AlarmDetail: View {
                 .padding(10)
 
             Spacer()
+            Toggle(isOn: $alm.isOn, label: {
+                Text("On/Off")
+            })
+            Picker("Times", selection: $alm.time){
+                ForEach(Times.allCases) { t in
+                    Text(t.rawValue.capitalized)
+                }
+            }
 
         }
     }
@@ -34,4 +42,22 @@ struct AlarmDetail_Previews: PreviewProvider {
     static var previews: some View {
         AlarmDetail(alm: Binding.constant(Alarm()))
     }
+}
+
+enum Times: String, CaseIterable, Identifiable{
+    case one
+    case two
+    case three
+    case four
+    case five
+    case six
+    case seven
+    case eight
+    case nine
+    case ten
+    case eleven
+    case twelve
+    
+    
+    var id: String {self.rawValue}
 }

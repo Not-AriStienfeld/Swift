@@ -20,7 +20,9 @@ struct ContentView: View {
                     label: {
                         AlarmView(alm: self.$alarming[index])
                     })
+                
             }
+            
         }
         
     }

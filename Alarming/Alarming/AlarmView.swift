@@ -14,7 +14,11 @@ struct AlarmView: View {
         HStack{
             Spacer()
             Text("\(alm.time)")
+                .foregroundColor(alm.isOn ? Color.green : Color.red)
+                
+                
             Spacer()
+            
         }
         
     }

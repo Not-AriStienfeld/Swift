@@ -20,6 +20,9 @@ struct ImageDetail: View {
                     .frame(width: geo.size.width, height: 240, alignment: .top)
                     .blur(radius: CGFloat(picture.blur))
                     .contrast(Double(picture.contrast))
+                    .saturation(Double(picture.saturation))
+                    .brightness(picture.brightness)
+                    
                 
             }
             VStack{
@@ -37,10 +40,12 @@ struct ImageDetail: View {
                     
                 }
             }
+            .opacity( picture.visible ? 1.0 : 0.0)
         }
         .cornerRadius(20.0)
         .padding(.horizontal, 10)
         .frame(minWidth: 0, idealWidth: 100, maxWidth: .infinity, minHeight: 0, idealHeight: 220, maxHeight: 240, alignment: .center)
+        
     }
     
 }
