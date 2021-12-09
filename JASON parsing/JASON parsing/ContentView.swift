@@ -6,37 +6,40 @@
 //
 
 import SwiftUI
-struct User : Codable {
-    let name : String
-    let address : Address
+struct User: Codable{
+    let name: String
+    let address: Address
 }
 
-struct Address : Codable {
-    let street : String
-    let city : String
+struct Address: Codable{
+    let street: String
+    let city: String
 }
 
 struct ContentView: View {
     let input = """
-    {
-        "name": "Billy bob"
-        "address": {
-            "street": "555 Happy Street"
-            "city": "Nashville"
+        {
+            "name": "Justin Ridley",
+            "address": {
+                "street": "254 Robot Street",
+                "city": "Texas"
+            }
         }
-    }
-    """
+        """
     
     @State var text = ""
     
     var body: some View {
         VStack{
-            Button(action: {let data = Data(input.utf8)
+            Button(action: {
+                let data = Data(input.utf8)
                 let decoder = JSONDecoder()
                 if let user = try? decoder.decode(User.self, from: data){
-                    self.text = user.address.street }
-            }, label: {
-                Text("Click Me")
+                    self.text = user.address.street
+                    
+                }}, label: {
+                    Text("Click Me")
+                
             })
             Text(text)
         }
