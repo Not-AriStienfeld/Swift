@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>622152401520-5k8opkr14fcm22u9847k8ei7ibsuce53.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.622152401520-5k8opkr14fcm22u9847k8ei7ibsuce53</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCDfy9m-jWPoK7HDzrDTpZ9fs9VIdjImcQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>622152401520</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Smartester-People-CO.SlowmoGraham</string>
+	<key>PROJECT_ID</key>
+	<string>slowmogram-5f03b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>slowmogram-5f03b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:622152401520:ios:e49c1f271a3f0697e56ab5</string>
+</dict>
+</plist>
