@@ -19,9 +19,13 @@ class AppDelegate: NSObject, UIApplicationDelegate{
 
 @main
 struct SlowmoGrahamApp: App {
+    
+    @StateObject var userInfo = User()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(userInfo)
         }
     }
 }

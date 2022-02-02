@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A0D53E727AAB54600E35C67 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0D53E627AAB54600E35C67 /* User.swift */; };
+		1A0D53E927AAB7B800E35C67 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0D53E827AAB7B800E35C67 /* HomeView.swift */; };
+		1A0D53EB27AAB9A800E35C67 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0D53EA27AAB9A800E35C67 /* LoginView.swift */; };
+		1A0D53EF27AABC0B00E35C67 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0D53EE27AABC0B00E35C67 /* Constants.swift */; };
 		1A602B892732AADF00E59F13 /* SlowmoGrahamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A602B882732AADF00E59F13 /* SlowmoGrahamApp.swift */; };
 		1A602B8B2732AADF00E59F13 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A602B8A2732AADF00E59F13 /* ContentView.swift */; };
 		1A602B8D2732AAE400E59F13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A602B8C2732AAE400E59F13 /* Assets.xcassets */; };
@@ -38,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A0D53E627AAB54600E35C67 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1A0D53E827AAB7B800E35C67 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1A0D53EA27AAB9A800E35C67 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		1A0D53EE27AABC0B00E35C67 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		1A602B852732AADF00E59F13 /* SlowmoGraham.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlowmoGraham.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A602B882732AADF00E59F13 /* SlowmoGrahamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlowmoGrahamApp.swift; sourceTree = "<group>"; };
 		1A602B8A2732AADF00E59F13 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -93,6 +101,28 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		1A0D53EC27AAB9DD00E35C67 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				1A602B8A2732AADF00E59F13 /* ContentView.swift */,
+				1A602BB52732B5DB00E59F13 /* ImageDetail.swift */,
+				1AD29B46275502C700EC03C9 /* ImageEditView.swift */,
+				1A0D53EA27AAB9A800E35C67 /* LoginView.swift */,
+				1A0D53E827AAB7B800E35C67 /* HomeView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		1A0D53ED27AABA0600E35C67 /* Modle */ = {
+			isa = PBXGroup;
+			children = (
+				1A0D53E627AAB54600E35C67 /* User.swift */,
+				1AE975C5273AA384008CA0FB /* Picture.swift */,
+				1A0D53EE27AABC0B00E35C67 /* Constants.swift */,
+			);
+			path = Modle;
+			sourceTree = "<group>";
+		};
 		1A602B7C2732AADF00E59F13 = {
 			isa = PBXGroup;
 			children = (
@@ -119,14 +149,12 @@
 			isa = PBXGroup;
 			children = (
 				1A602B882732AADF00E59F13 /* SlowmoGrahamApp.swift */,
-				1A602B8A2732AADF00E59F13 /* ContentView.swift */,
+				1A0D53ED27AABA0600E35C67 /* Modle */,
+				1A0D53EC27AAB9DD00E35C67 /* views */,
 				1A602B8C2732AAE400E59F13 /* Assets.xcassets */,
 				1AF5EDF827A82EAC00ADBB30 /* GoogleService-Info.plist */,
 				1A602B912732AAE400E59F13 /* Info.plist */,
 				1A602B8E2732AAE400E59F13 /* Preview Content */,
-				1A602BB52732B5DB00E59F13 /* ImageDetail.swift */,
-				1AE975C5273AA384008CA0FB /* Picture.swift */,
-				1AD29B46275502C700EC03C9 /* ImageEditView.swift */,
 			);
 			path = SlowmoGraham;
 			sourceTree = "<group>";
@@ -163,7 +191,6 @@
 				3B6C20A64EAA10E7356AB9D7 /* Pods-SlowmoGraham.debug.xcconfig */,
 				C336168284919295C4BDAC81 /* Pods-SlowmoGraham.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -342,10 +369,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AD29B47275502C700EC03C9 /* ImageEditView.swift in Sources */,
+				1A0D53E927AAB7B800E35C67 /* HomeView.swift in Sources */,
 				1AE975C6273AA384008CA0FB /* Picture.swift in Sources */,
+				1A0D53E727AAB54600E35C67 /* User.swift in Sources */,
 				1A602BB62732B5DB00E59F13 /* ImageDetail.swift in Sources */,
 				1A602B8B2732AADF00E59F13 /* ContentView.swift in Sources */,
+				1A0D53EB27AAB9A800E35C67 /* LoginView.swift in Sources */,
 				1A602B892732AADF00E59F13 /* SlowmoGrahamApp.swift in Sources */,
+				1A0D53EF27AABC0B00E35C67 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
