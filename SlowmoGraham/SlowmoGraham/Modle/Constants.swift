@@ -10,6 +10,7 @@ import SwiftUI
 extension Color{
     static let background = Color("Background")
     static let buttonBackground = Color("ButtonBackground")
+    static let buttonText = Color("ButtonText")
 }
 
 class Theme {

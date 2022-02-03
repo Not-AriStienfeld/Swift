@@ -11,6 +11,7 @@
 		1A0D53E927AAB7B800E35C67 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0D53E827AAB7B800E35C67 /* HomeView.swift */; };
 		1A0D53EB27AAB9A800E35C67 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0D53EA27AAB9A800E35C67 /* LoginView.swift */; };
 		1A0D53EF27AABC0B00E35C67 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0D53EE27AABC0B00E35C67 /* Constants.swift */; };
+		1A3EE73D27AC1765002DCC4F /* FirebaseFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3EE73C27AC1765002DCC4F /* FirebaseFunctions.swift */; };
 		1A602B892732AADF00E59F13 /* SlowmoGrahamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A602B882732AADF00E59F13 /* SlowmoGrahamApp.swift */; };
 		1A602B8B2732AADF00E59F13 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A602B8A2732AADF00E59F13 /* ContentView.swift */; };
 		1A602B8D2732AAE400E59F13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A602B8C2732AAE400E59F13 /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 		1A0D53E827AAB7B800E35C67 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		1A0D53EA27AAB9A800E35C67 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		1A0D53EE27AABC0B00E35C67 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1A3EE73C27AC1765002DCC4F /* FirebaseFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseFunctions.swift; sourceTree = "<group>"; };
 		1A602B852732AADF00E59F13 /* SlowmoGraham.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlowmoGraham.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A602B882732AADF00E59F13 /* SlowmoGrahamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlowmoGrahamApp.swift; sourceTree = "<group>"; };
 		1A602B8A2732AADF00E59F13 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				1A0D53E627AAB54600E35C67 /* User.swift */,
 				1AE975C5273AA384008CA0FB /* Picture.swift */,
 				1A0D53EE27AABC0B00E35C67 /* Constants.swift */,
+				1A3EE73C27AC1765002DCC4F /* FirebaseFunctions.swift */,
 			);
 			path = Modle;
 			sourceTree = "<group>";
@@ -368,6 +371,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A3EE73D27AC1765002DCC4F /* FirebaseFunctions.swift in Sources */,
 				1AD29B47275502C700EC03C9 /* ImageEditView.swift in Sources */,
 				1A0D53E927AAB7B800E35C67 /* HomeView.swift in Sources */,
 				1AE975C6273AA384008CA0FB /* Picture.swift in Sources */,
