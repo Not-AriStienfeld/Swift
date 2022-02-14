@@ -21,7 +21,7 @@ class AppDelegate: NSObject, UIApplicationDelegate{
 struct SlowmoGrahamApp: App {
     
     @StateObject var userInfo = User()
-    
+    @UIApplicationDelegateAdaptor private var appDelegate: AppDelegate
     var body: some Scene {
         WindowGroup {
             ContentView()

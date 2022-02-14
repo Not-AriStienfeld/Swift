@@ -31,3 +31,4 @@ class Theme {
         UINavigationBar.appearance().tintColor = tintColor ?? titleColor ?? .black
     }
 }
+
